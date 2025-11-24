@@ -1,0 +1,35 @@
+{
+  "name": "scalable-chatapp-node.js-mysql-sequelize-socket-redis-kafka-",
+  "version": "1.0.0",
+  "description": "this i sthe Scalable chat application with node.js,mysql,sequelize,socket,redis and kafka with CI/CD pipeline",
+  "main": "\\",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshayecs/Scalable-ChatApp-Node.js-MySQL-Sequelize-Socket-Redis-Kafka-.git"
+  },
+  "keywords": [
+    "Scalable",
+    "chat",
+    "App",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "Sequelize",
+    "Socket.io",
+    "Kafka"
+  ],
+  "author": "Akshay Prajapati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akshayecs/Scalable-ChatApp-Node.js-MySQL-Sequelize-Socket-Redis-Kafka-/issues"
+  },
+  "homepage": "https://github.com/akshayecs/Scalable-ChatApp-Node.js-MySQL-Sequelize-Socket-Redis-Kafka-#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0"
+  }
+}
