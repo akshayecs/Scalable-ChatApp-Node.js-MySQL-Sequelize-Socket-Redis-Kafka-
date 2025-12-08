@@ -4,7 +4,10 @@
   "description": "this i sthe Scalable chat application with node.js,mysql,sequelize,socket,redis and kafka with CI/CD pipeline",
   "main": "\\",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "node src/utils/migrate.js",
+    "test": "echo \"no tests\""
   },
   "repository": {
     "type": "git",
@@ -30,6 +33,25 @@
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "eslint": "^9.39.1",
-    "globals": "^16.5.0"
+    "globals": "^16.5.0",
+    "nodemon": "^3.0.1",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "@socket.io/redis-adapter": "^8.3.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.8.2",
+    "jsonwebtoken": "^9.0.2",
+    "kafkajs": "^2.2.4",
+    "mocha": "^11.7.5",
+    "multer": "^2.0.2",
+    "mysql2": "^3.15.3",
+    "nodemon": "^3.1.11",
+    "sequelize": "^6.37.7",
+    "socket.io": "^4.8.1"
   }
 }
